@@ -1,0 +1,9 @@
+exp,test,P,R,mAP50,mAP50-95,AP50_pothole,AP50_crack,AP50_manhole
+E1_hbb_n_baseline,orig,0.536,0.461,0.453,0.193,0.364,0.296,0.698
+E1_hbb_n_baseline,low,0.399,0.339,0.273,0.114,0.199,0.172,0.447
+E2_hbb_s_improved,orig,0.543,0.526,0.481,0.205,0.410,0.292,0.740
+E2_hbb_s_improved,low,0.413,0.254,0.219,0.088,0.216,0.120,0.321
+E3_hbb_s_improved_lowlight,orig,0.565,0.483,0.484,0.199,0.427,0.314,0.711
+E3_hbb_s_improved_lowlight,low,0.557,0.399,0.424,0.177,0.383,0.243,0.646
+E4_obb_s_improved_lowlight,orig,0.636,0.606,0.600,0.359,0.596,0.445,0.758
+E4_obb_s_improved_lowlight,low,0.554,0.564,0.520,0.309,0.482,0.379,0.700

@@ -1,0 +1,3 @@
+-r requirements.txt
+pygame>=2.5,<3
+# OpenCV and torch are supplied by the Ultralytics environment.
