@@ -11,11 +11,11 @@ Detect **potholes, cracks, and manholes** using a reproducible preparation pipel
 5. Fine-tune horizontal-box (HBB) and oriented-box (OBB) detectors.
 6. Evaluate on original and paired synthetic low-light test images; export tables and figures.
 
-The supplied notebook records 2,004 deduplicated images: **1,602 train / 201 validation / 201 test**. Mixed-light experiments use 3,204 training images. Grouping by filename blocks reduces leakage risk but does not prove independence between videos or locations.
+The notebook records 2,004 deduplicated images: **1,602 train / 201 validation / 201 test**. Mixed-light experiments use 3,204 training images. Grouping by filename blocks reduces leakage risk but does not prove independence between videos or locations.
 
 ## Experiments and recorded results
 
-These rounded metrics come from the supplied notebook's saved output, **not a new training run during repository preparation**. Both test conditions contain 201 corresponding images.
+These rounded metrics come from my notebook's saved output, **not a new training run while preparing this repository**. Both test conditions contain 201 corresponding images.
 
 | Experiment | Training setup | Epoch cap | Original mAP50–95 | Synthetic low-light mAP50–95 |
 |---|---|---:|---:|---:|
